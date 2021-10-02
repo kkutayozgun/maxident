@@ -1,0 +1,69 @@
+{% load i18n %}
+
+<form class="card border-0 shadow-soft p-6">
+    <div class="mb-4">
+       <h3 class="h5">{% trans 'Formu doldurun, fırsatı yakalayın!' %}</h3>
+    </div>
+    <div class="row mx-gutters-2">
+       <div class="col-md-6 mb-3">
+          <div class="input-group">
+             <input type="text" class="form-control" name="firstName" placeholder="{% trans 'Adınız' %}" aria-label="First name">
+          </div>
+       </div>
+       <div class="col-md-6 mb-3">
+          <div class="input-group">
+             <input type="text" class="form-control" name="lasstName" placeholder="{% trans 'Soyadınız' %}">
+          </div>
+       </div>
+       <div class="col-md-6 mb-3">
+          <div class="input-group">
+             <select class="custom-select">
+                 <option value="">{% trans 'Tedavi Tercihiniz' %}</option>
+                 <option value="Diş Beyazlatma">{% trans 'Diş Beyazlatma' %}</option>
+                 <option value="İmplant Tedavisi">{% trans 'İmplant Tedavisi' %}</option>
+                 <option value="Zirkonyum Kaplama">{% trans 'Zirkonyum Kaplama' %}</option>
+                 <option value="Ortodonti">{% trans 'Ortodonti' %}</option>
+                 <option value="3D Tomografi">{% trans '3D Tomografi' %}</option>
+                 <option value="Beyaz Dolgu">{% trans 'Beyaz Dolgu' %}</option>
+                 <option value="Kanal Tedavisi">{% trans 'Kanal Tedavisi' %}</option>
+                 <option value="Çocuk Diş Hekimliği">{% trans 'Çocuk Diş Hekimliği' %}</option>
+             </select>
+          </div>
+       </div>
+       <div class="col-md-6 mb-3">
+          <div class="input-group">
+             <input type="text" class="form-control" name="email" placeholder="{% trans 'E-posta' %}">
+          </div>
+       </div>
+       <div class="col-md-6 mb-3">
+          <div class="input-group">
+             <input type="text" class="form-control" name="phone" placeholder="{% trans 'Telefon' %}" >
+          </div>
+       </div>
+       <div class="col-md-6 mb-3">
+          <div class="input-group">
+             <input type="text" class="form-control" name="subject" placeholder="{% trans 'Bize Nerden Ulaştınız?' %}">
+          </div>
+       </div>
+    </div>
+
+    <div class="mb-5">
+      <label class="sr-only">{% trans 'Mesajınız...' %}</label>
+      <div class=" input-group">
+         <textarea class="form-control" rows="4" name="message" placeholder="{% trans 'Mesajınız...' %}" aria-label="{% trans 'Mesajınız...' %}" ></textarea>
+      </div>
+   </div>
+    
+    <div class=" mb-3">
+       <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
+          <input type="checkbox" class="custom-control-input" id="kvkkCheckbox" name="kvkkCheckbox">
+          <label class="custom-control-label" for="kvkkCheckbox">
+          <small>
+            {% blocktrans trimmed %} 
+            Lütfen <a href="https://maxident.com.tr/aydinlatma-metni/" target="_blank">KVKK Aydınlatma Metni</a> kapsamında kişisel verilerinizi Maxident ile paylaştığınızı onaylayınız.</small>
+            {% endblocktrans %}
+         </label>
+       </div>
+    </div>
+    <button type="submit" class="btn btn-primary btn-radius-bottom-right"><span class="mn-top">{% trans 'Gönder' %}</span></button>
+ </form>

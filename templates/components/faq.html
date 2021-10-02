@@ -1,0 +1,131 @@
+{% load static %}
+{% load i18n %}
+
+<section id="faq" class="spacer-double-lg">
+    <div class="container">
+       <div class="row">
+          <div class="col">
+             <div class="mb-5 pb-5 text-center">
+                <h2 class="display-4">{% trans 'Size nasıl yardımcı olabiliriz?' %} </h2>
+                <p class="w-md-60 mx-auto mb-0 lead">
+                    {% blocktrans trimmed %}
+                    Diş sağlığı, gülüş tasarımı ve diş estetiği çözümleri konusunda uzman kadromuz 
+                    ile yanınızdayız. Size hangi konuda yardımcı olmamızı istesiniz? Hemen yanıtlayalım.
+                    {% endblocktrans %}                   
+                </p>
+             </div>
+          </div>
+       </div>
+       <div class="row justify-content-center">
+          <div class="col-lg-8">
+             <div id="faq-accordion">
+                <div class="card card-collapse mb-3 ">
+                   <div class="card-header accordion-header">
+                      <h5 class="mb-0">
+                         <button class="btn btn-link btn-block d-flex justify-content-between accordion-collapse-btn collapsed" data-toggle="collapse" data-target="#faq-accordion-1" aria-expanded="false" aria-controls="faq-accordion-1">
+                         {% trans 'Web’e özel diş analizi nedir?' %}
+                         <span class="accordion-arrow">
+                         <span class="fa fa-angle-down accordion-arrow-inner"></span>
+                         </span>
+                         </button>
+                      </h5>
+                   </div>
+                   <div id="faq-accordion-1" class="collapse" data-parent="#faq-accordion">
+                        <div class="card-body accordion-body">
+                            {% blocktrans trimmed %}
+                            Web’e özel ücretsiz diş analizi; sitemiz üzerinden doldurdukları form ile bize ulaşan hastalarımızın ağız ve diş sağlığı tedavileri 
+                            öncesi Maxident uzmanları tarafından ücretsiz ve detaylı ağız ve diş sağlığı inceleme ve değerlendirmesini kapsar. 
+                            Detaylı bilgi için bize ulaşabilirsiniz.
+                            {% endblocktrans %}
+                        </div>
+                   </div>
+                </div>
+                <div class="card card-collapse mb-3">
+                   <div class="card-header accordion-header">
+                      <h5 class="mb-0">
+                         <button class="btn btn-link btn-block d-flex justify-content-between accordion-collapse-btn collapsed" data-toggle="collapse" data-target="#faq-accordion-2" aria-expanded="false" aria-controls="faq-accordion-2">
+                         {% trans 'Nasıl Randevu Oluşturabilirim?' %}
+                         <span class="accordion-arrow">
+                         <span class="fa fa-angle-down accordion-arrow-inner"></span>
+                         </span>
+                         </button>
+                      </h5>
+                   </div>
+                   <div id="faq-accordion-2" class="collapse" data-parent="#faq-accordion">
+                        <div class="card-body accordion-body">
+                        {% blocktrans trimmed %}
+                        Randevu oluşturmak için çağrı merkezimizi (+90 264 502 85 05) aramanız veya whatsapp hattımız (+90 530 027 95 32) 
+                        üzerinden bize ulaşmanız yeterli. İletişim birimimiz konuyla ilgili sizi bilgilendirecektir.
+                        {% endblocktrans %}
+                        </div>
+                   </div>
+                </div>
+                <div class="card card-collapse mb-3 ">
+                   <div class="card-header accordion-header">
+                      <h5 class="mb-0">
+                         <button class="btn btn-link btn-block d-flex justify-content-between accordion-collapse-btn collapsed" data-toggle="collapse" data-target="#faq-accordion-3" aria-expanded="false" aria-controls="faq-accordion-3">
+                         {% trans 'Ödeme yöntemi kolaylıkları nelerdir?' %}
+                         <span class="accordion-arrow">
+                         <span class="fa fa-angle-down accordion-arrow-inner"></span>
+                         </span>
+                         </button>
+                      </h5>
+                   </div>
+                   <div id="faq-accordion-3" class="collapse" data-parent="#faq-accordion">
+                      <div class="card-body accordion-body">
+                      {% blocktrans trimmed %}
+                      Maxident tedavi çözümlerinden faydalanan tüm hastalarımız için vadeli ödeme seçeneklerimiz bulunmaktadır. 
+                      Ödeme sürecini talebiniz doğrultusunda özelleştirebiliyoruz. 
+                      Detaylı bilgi için çağrı merkezimiz (+90 264 502 85 05) veya whatsapp hattımız (+90 530 027 95 32) üzerinden bize ulaşabilirsiniz.
+                      {% endblocktrans %}
+                      </div>
+                   </div>
+                </div>
+                <div class="card card-collapse mb-3">
+                   <div class="card-header accordion-header">
+                      <h5 class="mb-0">
+                         <button class="btn btn-link btn-block d-flex justify-content-between accordion-collapse-btn collapsed" data-toggle="collapse" data-target="#faq-accordion-4" aria-expanded="false" aria-controls="faq-accordion-4">
+                         {% trans 'Özel sağlık sigortaları geçerli mi?' %}
+                         <span class="accordion-arrow">
+                         <span class="fa fa-angle-down accordion-arrow-inner"></span>
+                         </span>
+                         </button>
+                      </h5>
+                   </div>
+                   <div id="faq-accordion-4" class="collapse" data-parent="#faq-accordion">
+                        <div class="card-body accordion-body">
+                        {% blocktrans trimmed %}
+                        Detaylı bilgi için çağrı merkezimiz (+90 264 502 85 05) veya whatsapp hattımız (+90 530 027 95 32) üzerinden bize ulaşabilirsiniz.
+                        {% endblocktrans %}
+                        </div>
+                   </div>
+                </div>
+                <div class="card card-collapse">
+                   <div class="card-header accordion-header ">
+                      <h5 class="mb-0">
+                         <button class="btn btn-link btn-block d-flex justify-content-between accordion-collapse-btn collapsed" data-toggle="collapse" data-target="#faq-accordion-5" aria-expanded="false" aria-controls="faq-accordion-5">
+                         {% trans 'Polikliniğinize nasıl ulaşabilirim?' %}
+                         <span class="accordion-arrow">
+                         <span class="fa fa-angle-down accordion-arrow-inner"></span>
+                         </span>
+                         </button>
+                      </h5>
+                   </div>
+                   <div id="faq-accordion-5" class="collapse" data-parent="#faq-accordion">
+                      <div class="card-body accordion-body"> 
+                        {% blocktrans trimmed %}
+                        Adresimiz; Arabacıalanı Mahallesi, 608. Sokak, No:15 Serdivan Agora AVM içerisindedir. 
+                        {% endblocktrans %}
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="w-75 mx-auto mt-4 text-center">
+          <p class="mb-0 text-muted">{% trans 'Merak ettiğiniz diğer sorular için bize ulaşın.' %} <a href="#contact" class="hover-arrow text-info">{% trans 'İletişim' %}
+             <span class="fa fa-arrow-right"></span></a>
+          </p>
+       </div>
+    </div>
+ </section>

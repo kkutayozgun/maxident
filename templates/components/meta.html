@@ -1,0 +1,4 @@
+
+<meta name="description" content="{{obj.meta_description|default_if_none:''}}">
+<meta name="keywords" content="{% for kw in obj.meta_keywords.all %}{{kw.keyword}},{% endfor %}">
+<title>{{obj.seo_title|default_if_none:''}}</title>

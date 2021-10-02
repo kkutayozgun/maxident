@@ -1,0 +1,47 @@
+{% load i18n %}
+
+<section id="contact" class="bg-primary spacer-double-lg">
+    <div class="container position-relative z-index-2">
+       <div class="row justify-content-lg-between align-items-center">
+          <div class="col-lg-5  text-white mb-7 mb-lg-0">
+             <div class="mb-6">
+                <h2 class="h1 text-white ">{% trans 'Size yardımcı olmak için buradayız!' %}</h2>
+                <p class="text-white">
+                {% blocktrans trimmed %}
+                Diş sağlığınız veya estetik talepleriniz için yan tarafta yer alan formu doldurmanız yeterli. İletişim birimimiz en kısa süre içerisinde tarafınıza geri dönüş sağlayacaktır. 
+                {% endblocktrans %}
+                </p>
+             </div>
+             <div class="row ">
+                <div class="col-sm-6 mb-5">
+                   <span class="rounded-icon-size-1 bg-soft-white rounded-circle mb-3 d-block">
+                   <span class="fas fa-envelope icon-rounded-inner"></span>
+                   </span>
+                   <h4 class="h5 mb-0 text-white">{% trans 'E-posta' %}</h4>
+                   <a class="text-white-70 font-size-15" href="mailto:info@maxident.com.tr">info@maxident.com.tr</a>
+                </div>
+                <div class="col-sm-6 mb-5">
+                   <span class="rounded-icon-size-1 bg-soft-white rounded-circle mb-3 d-block">
+                   <span class="fas fa-phone icon-rounded-inner"></span>
+                   </span>
+                   <h4 class="h5 mb-0 text-white">{% trans 'Telefon' %}</h4>
+                   <a class="text-white-70 font-size-15" href="tel:902645028505">+90 264 502 85 05</a>
+                </div>
+                <div class="col-sm-6">
+                   <span class="rounded-icon-size-1 bg-soft-white rounded-circle mb-3 d-block">
+                   <span class="fas fa-map-marker-alt icon-rounded-inner"></span>
+                   </span>
+                   <h4 class="h5 mb-0 text-white">{% trans 'Adresimiz' %}</h4>
+                   <a class="text-white-70 font-size-15" href="#contact">Arabacıalanı Mah. 608. Sk. <br>
+                       No:15 Agora AVM <br>
+                       Serdivan/Sakarya
+                    </a>
+                </div>
+             </div>
+          </div>
+          <div class="col-lg-6 mt-5 mt-lg-0">
+             {% include 'components/contact_form.html' %}
+          </div>
+       </div>
+    </div>
+ </section>

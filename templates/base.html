@@ -1,0 +1,66 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="{{LANGUAGE_CODE}}">
+   <head>
+      <!-- Metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+
+      {% include 'components/meta.html' %}
+
+      
+      {% block styles %}
+        <!-- Css -->
+        <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all"/>
+        <link href="{% static 'css/main.css' %}" rel="stylesheet" type="text/css" media="all"/>
+        <link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet" type="text/css"  media="all" />
+        <link href="{% static 'css/fonts.css' %}" rel="stylesheet" type="text/css"  media="all" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,400i,600,700" rel="stylesheet">
+      {% endblock styles %}
+          
+
+      
+      {% block extra-styles %}
+          
+      {% endblock extra-styles %}
+          
+   </head>
+   <body>
+       
+    <div class="wrapper">
+        {% block content %}
+            
+        {% endblock content %}
+
+        {% include 'components/footer.html' %}
+    
+        <a class="whatsapp-icon" href="https://api.whatsapp.com/send?phone=905300279532"><span class=" fab fa-whatsapp"></span></a> 
+
+        <a class="scroll-to-top scroll" href="#wrapper" style="background-color:#5fc0ea"><span class=" fas fa-arrow-up top-icon "></span></a>  
+    </div>
+
+        
+      {% block scripts %}
+          <!--Javascript--> 
+      <script src="{% static 'js/jquery-1.12.4.min.js' %}" ></script>
+      <script src="{% static 'js/bootstrap.min.js' %}"></script>
+      <script src="{% static 'js/smooth-scroll.js' %}" ></script>
+      <script src="{% static 'js/placeholders.min.js' %}"></script>
+      <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+      <script src="{% static 'js/jarallax.min.js' %}"></script>
+      <script src="{% static 'js/jarallax-element.min.js' %}"></script>
+      <script src="{% static 'js/script.js' %}"></script>
+      <!-- Google analytics -->
+      <!-- End google analytics -->
+      {% endblock scripts %}
+
+      
+      {% block extra-scripts %}
+          
+      {% endblock extra-scripts %}
+          
+          
+   </body>
+</html>
+

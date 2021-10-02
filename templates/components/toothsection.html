@@ -1,0 +1,76 @@
+{% load static %}
+{% load i18n %}
+
+<section id="toothsection" class="bg-secondary spacer-double-lg">
+    <div class="container">
+       <div class="row">
+          <div class="col">
+             <div class="mb-5 pb-5 text-center">
+                <h2 class="display-4">{% trans 'Gülüşünüzle Barışın' %}</h2>
+                <p class="w-md-60 mx-auto mb-0 lead ">
+                    {% blocktrans trimmed %}
+                        Maxident Ağız ve Diş Sağlığı Polikliniği, tüm tedavi süreçlerinde 
+                        en yüksek standartlar ve teknolojilerle hizmet sunmaktadır.
+                    {% endblocktrans %}
+                </p>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-md-4 mb-4 mb-lg-0">
+             <div class="position-relative px-3">
+                <div class="position-relative z-index-2">
+                   <h4>{% trans 'Diş Sağlığı' %}</h4>
+                   <p class="mb-6 ">
+                       {% blocktrans trimmed %}
+                       Diş sağlığınızı koruyarak daha ışıltılı ve beyaz bir gülümseme için size özel tedavi çözümleri ile gülüşünüzü yeniliyoruz!
+                       {% endblocktrans %}
+                   </p>
+                   <img src="{% static 'assets/img/7.jpg' %}" alt="" class="img-fluid rounded radius-top-left z-index-2 ">
+                </div>
+             </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-lg-0">
+             <div class="position-relative px-3">
+                <div class="position-relative z-index-2">
+                   <h4>{% trans 'Diş Estetiği' %}</h4>
+                   <p class="mb-6 ">
+                       {% blocktrans trimmed %}
+                       Dişlerinizin görünüşünü anatominize özel analiz ve estetik çözümlerimiz ile yeniliyor, 
+                       size özel yeni gülümsemenizi tasarlıyoruz.
+                       {% endblocktrans %}
+                    </p>
+                   <img src="{% static 'assets/img/5.jpg' %}" alt="" class="img-fluid rounded radius-bottom-right z-index-2 ">
+                </div>
+             </div>
+          </div>
+          <div class="col-md-4">
+             <div class="position-relative px-3">
+                <div class="position-relative z-index-2">
+                   <h4>{% trans 'Cerrahi Çözümler' %}</h4>
+                   <p class="mb-6 ">
+                       {% blocktrans trimmed %}
+                       Sağlıklı bir gülümseme için ağız, çene ve diş uzmanı profesyonellerimiz 
+                       ile dişlerinizin birbiriyle olan uyumunu yeniliyoruz.
+                       {% endblocktrans %}
+                   </p>
+                   <img src="{% static 'assets/img/6.jpg' %}" alt="" class="img-fluid rounded radius-top-right z-index-2 ">
+                </div>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col">
+             <div class="mt-6 pt-6 text-center"> <a class="mr-2 btn btn-primary btn-radius-bottom-left mb-2 mb-sm-0" href="tel:+902645028505">
+                <span class="mn-top">{% trans 'Detaylı bilgi için bizi arayın' %}</span>
+                </a>
+                <a class="scroll btn btn-secondary btn-radius-bottom-right mb-2 mb-sm-0" 
+                    href="https://api.whatsapp.com/send?phone=905300279532"
+                    style="background-color: #5fc0ea;">
+                    <span class="mn-top">{% trans 'Detaylı bilgi için bize yazın ' %}</span>
+                </a>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
