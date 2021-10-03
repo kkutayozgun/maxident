@@ -3,6 +3,8 @@ from .base import *
 
 SECURE_SSL_REDIRECT = env.bool("SECURE_SSL_REDIRECT", default=False)
 
+X_FRAME_OPTIONS = env('X_FRAME_OPTIONS', default="SAMEORIGIN")
+
 if env.bool("APPLY_EXTRA_SECURITY_SETTINGS", default=False):
     CSRF_COOKIE_SECURE = True
     SESSION_COOKIE_SECURE = True
@@ -11,4 +13,3 @@ if env.bool("APPLY_EXTRA_SECURITY_SETTINGS", default=False):
     SECURE_HSTS_SECONDS = 86400
     SECURE_HSTS_INCLUDE_SUBDOMAINS = True
     SECURE_HSTS_PRELOAD = True
-    X_FRAME_OPTIONS = env('X_FRAME_OPTIONS', default="DENY")
