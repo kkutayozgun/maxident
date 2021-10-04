@@ -28,13 +28,13 @@ msgstr "English"
 
 #: .\page\views.py:55
 msgid "Mesajınızı gönderirken hata oluştu!."
-msgstr ""
+msgstr "An error occurred while sending your message!."
 
 #: .\page\views.py:57
 msgid ""
 "Mesajınız başarıyla iletildi! En kısa süre içerisinde geri dönüş "
 "sağlayacağız."
-msgstr ""
+msgstr "Your message has been successfully delivered! We will get back to you as soon as possible."
 
 #: .\seoen\models.py:5 .\seotr\models.py:5
 msgid "Anahtar Kelime"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: .\templates\components\about.html:8
 msgid "Maxident’e Hoş Geldiniz!"
-msgstr "Welcome to Maxident"
+msgstr "Welcome to Maxident!"
 
 #: .\templates\components\about.html:10
 msgid ""
@@ -93,16 +93,11 @@ msgid ""
 "teknolojilere sahip ağız, diş sağlığı ve estetiği parkurlarımızla sizin için "
 "en iyi sonuçları sunmak, gülüşünüz ile barışmanız için yanınızdayız!"
 msgstr ""
-"In Maxident Oral and Dental Health Polyclinic, we offer the aesthetic, oral "
-"and dental health processes of all our patients at the highest standards by "
-"making use of our experienced dentists and high technology equipment in line "
-"with the needs of the individual anatomy. We are with you to provide the "
-"best results for you and to make peace with your smile with our fully "
-"equipped and state-of-the-art oral, dental health and aesthetic tracks."
+"In Maxident Oral and Dental Health Polyclinic, we offer the aesthetic, oral and dental health processes of all our patients at the highest standards by making use of our experienced dentists and high technology equipment in line with the needs of the individual anatomy. We are with you to provide the best results for you and to make peace with your smile with our fully equipped and state-of-the-art oral, dental health and aesthetic tracks!"
 
 #: .\templates\components\about.html:239
 msgid "Diş sağlığı ve estetiğinde size özel çözümler!"
-msgstr "Special solutions for you in dental health and aesthetics"
+msgstr "Dental health and aesthetic solutions!"
 
 #: .\templates\components\about.html:241
 msgid ""
@@ -110,9 +105,7 @@ msgid ""
 "keşfetmesi için güncel tedavi yöntemleri ve teknolojiler ile çalışıyor, "
 "kişiye özel çözümler sunuyoruz."
 msgstr ""
-"We work with up-to-date treatment methods and technologies and offer "
-"personalized solutions so that our patients can rediscover their smile in "
-"the management of the oral and dental health process."
+"We work with up-to-date treatment methods and technologies and offer personalized solutions so that our patients can rediscover their smile in the management of the oral and dental health process."
 
 #: .\templates\components\about.html:251
 #: .\templates\components\banner_form.html:34
@@ -124,7 +117,7 @@ msgstr "Teeth whitening"
 #: .\templates\components\banner_form.html:35
 #: .\templates\components\contact_form.html:33
 msgid "İmplant Tedavisi"
-msgstr "Implant Treatment"
+msgstr "Dental Implant"
 
 #: .\templates\components\about.html:260
 #: .\templates\components\contact_form.html:34
@@ -147,7 +140,7 @@ msgstr "3D Tomography"
 #: .\templates\components\banner_form.html:38
 #: .\templates\components\contact_form.html:37
 msgid "Beyaz Dolgu"
-msgstr "White Fill"
+msgstr "Dental Composite"
 
 #: .\templates\components\about.html:279
 #: .\templates\components\banner_form.html:37
@@ -175,26 +168,26 @@ msgstr "Web-specific Dental Analysis"
 #: .\templates\components\banner_form.html:16
 #: .\templates\components\contact_form.html:15
 msgid "Formu doldurun, fırsatı yakalayın!"
-msgstr "Fill in the form, grab the opportunity!"
+msgstr "Fill in the form, take advantage of the opportunity!"
 
 #: .\templates\components\banner_form.html:21
 #: .\templates\components\contact_form.html:20
 msgid "Adınız"
-msgstr "Your name"
+msgstr "Name"
 
 #: .\templates\components\banner_form.html:26
 #: .\templates\components\contact_form.html:25
 msgid "Soyadınız"
-msgstr "Your surname"
+msgstr "Surname"
 
 #: .\templates\components\banner_form.html:32
 #: .\templates\components\contact_form.html:31
 msgid "Tedavi Tercihiniz"
-msgstr "Your Treatment Preference"
+msgstr "Treatment Selection"
 
 #: .\templates\components\banner_form.html:33
 msgid "Muayene"
-msgstr ""
+msgstr "Medical Examination"
 
 #: .\templates\components\banner_form.html:45
 #: .\templates\components\contact.html:20
@@ -206,7 +199,7 @@ msgstr "E-mail"
 #: .\templates\components\contact.html:27
 #: .\templates\components\contact_form.html:50
 msgid "Telefon"
-msgstr "Telephone"
+msgstr "Phone"
 
 #: .\templates\components\banner_form.html:55
 #: .\templates\components\contact_form.html:55
@@ -219,7 +212,7 @@ msgid ""
 "Lütfen <a href=\"https://maxident.com.tr/aydinlatma-metni/\" target=\"_blank"
 "\">KVKK Aydınlatma Metni</a> kapsamında kişisel verilerinizi Maxident ile "
 "paylaştığınızı onaylayınız.</small>"
-msgstr ""
+msgstr "Please confirm that you have shared your personal data with Maxident within the scope of <a href=\"https://maxident.com.tr/aydinlatma-metni/\" target=\"_blank\">GDPR Privacy Policy.</a></small>"
 
 #: .\templates\components\banner_form.html:73
 #: .\templates\components\contact_form.html:80
@@ -235,31 +228,31 @@ msgid ""
 "Diş sağlığınız veya estetik talepleriniz için yan tarafta yer alan formu "
 "doldurmanız yeterli. İletişim birimimiz en kısa süre içerisinde tarafınıza "
 "geri dönüş sağlayacaktır."
-msgstr ""
+msgstr "For your dental health or aesthetic requests, simply fill out the form on the side. Our communication unit will get back to you as soon as possible."
 
 #: .\templates\components\contact.html:34
 msgid "Adresimiz"
-msgstr "Our Address"
+msgstr "Address"
 
 #: .\templates\components\contact_form.html:61
 #: .\templates\components\contact_form.html:63
 msgid "Mesajınız..."
-msgstr ""
+msgstr "Your message..."
 
 #: .\templates\components\faq.html:9
 msgid "Size nasıl yardımcı olabiliriz?"
-msgstr ""
+msgstr "How can we help you?"
 
 #: .\templates\components\faq.html:11
 msgid ""
 "Diş sağlığı, gülüş tasarımı ve diş estetiği çözümleri konusunda uzman "
 "kadromuz ile yanınızdayız. Size hangi konuda yardımcı olmamızı istesiniz? "
 "Hemen yanıtlayalım."
-msgstr ""
+msgstr "We are with you with our expert staff in dental health, smile design and dental aesthetic solutions. What would you like us to assist you with? Let's answer right away."
 
 #: .\templates\components\faq.html:26
 msgid "Web’e özel diş analizi nedir?"
-msgstr ""
+msgstr "What is web-specific dental analysis?"
 
 #: .\templates\components\faq.html:35
 msgid ""
@@ -267,22 +260,22 @@ msgid ""
 "bize ulaşan hastalarımızın ağız ve diş sağlığı tedavileri öncesi Maxident "
 "uzmanları tarafından ücretsiz ve detaylı ağız ve diş sağlığı inceleme ve "
 "değerlendirmesini kapsar. Detaylı bilgi için bize ulaşabilirsiniz."
-msgstr ""
+msgstr "Web-specific free dental analysis; It includes free and detailed oral and dental health examination and evaluation by Maxident specialists before the oral and dental health treatments of our patients who reach us with the form they fill out on our website. You can contact us for detailed information."
 
 #: .\templates\components\faq.html:47
 msgid "Nasıl Randevu Oluşturabilirim?"
-msgstr ""
+msgstr "How can I make an appointment?"
 
 #: .\templates\components\faq.html:56
 msgid ""
 "Randevu oluşturmak için çağrı merkezimizi (+90 264 502 85 05) aramanız veya "
 "whatsapp hattımız (+90 530 027 95 32) üzerinden bize ulaşmanız yeterli. "
 "İletişim birimimiz konuyla ilgili sizi bilgilendirecektir."
-msgstr ""
+msgstr "To make an appointment, simply call our call center (+90 264 502 85 05) or contact us via our whatsapp line (+90 530 027 95 32). Our communication unit will inform you about the issue."
 
 #: .\templates\components\faq.html:67
 msgid "Ödeme yöntemi kolaylıkları nelerdir?"
-msgstr ""
+msgstr "What are the payment method conveniences?"
 
 #: .\templates\components\faq.html:76
 msgid ""
@@ -291,115 +284,115 @@ msgid ""
 "özelleştirebiliyoruz. Detaylı bilgi için çağrı merkezimiz (+90 264 502 85 "
 "05) veya whatsapp hattımız (+90 530 027 95 32) üzerinden bize "
 "ulaşabilirsiniz."
-msgstr ""
+msgstr "We have deferred payment options for all our patients who benefit from Maxident treatment solutions. We can customize the payment process according to your request. For detailed information, you can contact us via our call center (+90 264 502 85 05) or whatsapp line (+90 530 027 95 32)."
 
 #: .\templates\components\faq.html:88
 msgid "Özel sağlık sigortaları geçerli mi?"
-msgstr ""
+msgstr "Is private health insurance valid?"
 
 #: .\templates\components\faq.html:97
 msgid ""
 "Detaylı bilgi için çağrı merkezimiz (+90 264 502 85 05) veya whatsapp "
 "hattımız (+90 530 027 95 32) üzerinden bize ulaşabilirsiniz."
-msgstr ""
+msgstr "For detailed information, you can contact us via our call center (+90 264 502 85 05) or whatsapp line (+90 530 027 95 32)."
 
 #: .\templates\components\faq.html:107
 msgid "Polikliniğinize nasıl ulaşabilirim?"
-msgstr ""
+msgstr "How can I reach your outpatient clinic?"
 
 #: .\templates\components\faq.html:116
 msgid ""
 "Adresimiz; Arabacıalanı Mahallesi, 608. Sokak, No:15 Serdivan Agora AVM "
 "içerisindedir."
-msgstr ""
+msgstr "Our address; It is in Arabacıalanı Mahallesi, 608. Sokak, No:15 Serdivan Agora AVM."
 
 #: .\templates\components\faq.html:126
 msgid "Merak ettiğiniz diğer sorular için bize ulaşın."
-msgstr ""
+msgstr "Contact us for other questions you are curious about. Contact"
 
 #: .\templates\components\faq.html:126 .\templates\components\header.html:21
 msgid "İletişim"
-msgstr ""
+msgstr "Contact"
 
 #: .\templates\components\footer.html:11 .\templates\components\footer.html:20
 msgid "Detaylar için"
-msgstr ""
+msgstr "For detailed information"
 
 #: .\templates\components\footer.html:12
 msgid "Bize Yazın"
-msgstr ""
+msgstr "Write us "
 
 #: .\templates\components\footer.html:21
 msgid "Bizi Arayın "
-msgstr ""
+msgstr "Call us "
 
 #: .\templates\components\header.html:15
 msgid "Hakkımızda"
-msgstr ""
+msgstr "About Us"
 
 #: .\templates\components\header.html:17
 msgid "Diş Sağlığı ve Estetiği "
-msgstr ""
+msgstr "Dental Health and Aesthetics"
 
 #: .\templates\components\header.html:19
 msgid "SSS"
-msgstr ""
+msgstr "FAQ"
 
 #: .\templates\components\header.html:23
 msgid "Hemen Arayın "
-msgstr ""
+msgstr "Call Now"
 
 #: .\templates\components\toothsection.html:9
 msgid "Gülüşünüzle Barışın"
-msgstr ""
+msgstr "Discover your smile!"
 
 #: .\templates\components\toothsection.html:11
 msgid ""
 "Maxident Ağız ve Diş Sağlığı Polikliniği, tüm tedavi süreçlerinde en yüksek "
 "standartlar ve teknolojilerle hizmet sunmaktadır."
-msgstr ""
+msgstr "Maxident Oral and Dental Health Polyclinic provides services with the highest standards and technologies in all treatment processes."
 
 #: .\templates\components\toothsection.html:23
 msgid "Diş Sağlığı"
-msgstr ""
+msgstr "Dental health"
 
 #: .\templates\components\toothsection.html:25
 msgid ""
 "Diş sağlığınızı koruyarak daha ışıltılı ve beyaz bir gülümseme için size "
 "özel tedavi çözümleri ile gülüşünüzü yeniliyoruz!"
-msgstr ""
+msgstr "We renew your smile with special treatment solutions for a brighter and whiter smile while protecting your dental health!"
 
 #: .\templates\components\toothsection.html:36
 msgid "Diş Estetiği"
-msgstr ""
+msgstr "Dental Aesthetics"
 
 #: .\templates\components\toothsection.html:38
 msgid ""
 "Dişlerinizin görünüşünü anatominize özel analiz ve estetik çözümlerimiz ile "
 "yeniliyor, size özel yeni gülümsemenizi tasarlıyoruz."
-msgstr ""
+msgstr "We renew the appearance of your teeth with our analysis and aesthetic solutions specific to your anatomy, and we design your new smile."
 
 #: .\templates\components\toothsection.html:50
 msgid "Cerrahi Çözümler"
-msgstr ""
+msgstr "Surgical Solutions"
 
 #: .\templates\components\toothsection.html:52
 msgid ""
 "Sağlıklı bir gülümseme için ağız, çene ve diş uzmanı profesyonellerimiz ile "
 "dişlerinizin birbiriyle olan uyumunu yeniliyoruz."
-msgstr ""
+msgstr "For a healthy smile, we renew the harmony of your teeth with each other with our mouth, jaw and dental specialist professionals."
 
 #: .\templates\components\toothsection.html:65
 msgid "Detaylı bilgi için bizi arayın"
-msgstr ""
+msgstr "Call us for detailed information"
 
 #: .\templates\components\toothsection.html:70
 msgid "Detaylı bilgi için bize yazın "
-msgstr ""
+msgstr "Write us for detailed information"
 
 #: .\templates\components\trustedby.html:10
 msgid ""
 "Kişiye özel diş sağlığı ve estetik çözümlerimiz ile tedavi yolculuğunuz "
 "boyunca yanınızdayız. Yüksek poliklinik donanımı, tecrübeli ekibimiz ve hiç "
 "eksik etmeyeceğimiz güler yüzümüzle hizmetinizdeyiz."
-msgstr ""
+msgstr "We are with you throughout your treatment journey with our personalized dental health and aesthetic solutions. We are at your service with our high polyclinic equipment, our experienced team and our smiling face that we will never miss."
