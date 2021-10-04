@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-02 15:14+0300\n"
+"POT-Creation-Date: 2021-10-04 15:10+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,16 @@ msgstr "Turkish"
 #: .\config\settings\base.py:118
 msgid "İngilizce"
 msgstr "English"
+
+#: .\page\views.py:55
+msgid "Mesajınızı gönderirken hata oluştu!."
+msgstr ""
+
+#: .\page\views.py:57
+msgid ""
+"Mesajınız başarıyla iletildi! En kısa süre içerisinde geri dönüş "
+"sağlayacağız."
+msgstr ""
 
 #: .\seoen\models.py:5 .\seotr\models.py:5
 msgid "Anahtar Kelime"
@@ -82,7 +92,13 @@ msgid ""
 "faydalanarak en yüksek standartlarda sunmaktayız. Tam donanımlı ve güncel "
 "teknolojilere sahip ağız, diş sağlığı ve estetiği parkurlarımızla sizin için "
 "en iyi sonuçları sunmak, gülüşünüz ile barışmanız için yanınızdayız!"
-msgstr "In Maxident Oral and Dental Health Polyclinic, we offer the aesthetic, oral and dental health processes of all our patients at the highest standards by making use of our experienced dentists and high technology equipment in line with the needs of the individual anatomy. We are with you to provide the best results for you and to make peace with your smile with our fully equipped and state-of-the-art oral, dental health and aesthetic tracks."
+msgstr ""
+"In Maxident Oral and Dental Health Polyclinic, we offer the aesthetic, oral "
+"and dental health processes of all our patients at the highest standards by "
+"making use of our experienced dentists and high technology equipment in line "
+"with the needs of the individual anatomy. We are with you to provide the "
+"best results for you and to make peace with your smile with our fully "
+"equipped and state-of-the-art oral, dental health and aesthetic tracks."
 
 #: .\templates\components\about.html:239
 msgid "Diş sağlığı ve estetiğinde size özel çözümler!"
@@ -93,51 +109,54 @@ msgid ""
 "Ağız ve diş sağlığı süreci yönetiminde hastalarımızın gülüşünü yeniden "
 "keşfetmesi için güncel tedavi yöntemleri ve teknolojiler ile çalışıyor, "
 "kişiye özel çözümler sunuyoruz."
-msgstr "We work with up-to-date treatment methods and technologies and offer personalized solutions so that our patients can rediscover their smile in the management of the oral and dental health process."
+msgstr ""
+"We work with up-to-date treatment methods and technologies and offer "
+"personalized solutions so that our patients can rediscover their smile in "
+"the management of the oral and dental health process."
 
 #: .\templates\components\about.html:251
-#: .\templates\components\banner_form.html:23
-#: .\templates\components\contact_form.html:22
+#: .\templates\components\banner_form.html:34
+#: .\templates\components\contact_form.html:32
 msgid "Diş Beyazlatma"
 msgstr "Teeth whitening"
 
 #: .\templates\components\about.html:255
-#: .\templates\components\banner_form.html:24
-#: .\templates\components\contact_form.html:23
+#: .\templates\components\banner_form.html:35
+#: .\templates\components\contact_form.html:33
 msgid "İmplant Tedavisi"
 msgstr "Implant Treatment"
 
 #: .\templates\components\about.html:260
-#: .\templates\components\contact_form.html:24
+#: .\templates\components\contact_form.html:34
 msgid "Zirkonyum Kaplama"
 msgstr "Zirconium Coating"
 
 #: .\templates\components\about.html:265
-#: .\templates\components\banner_form.html:25
-#: .\templates\components\contact_form.html:25
+#: .\templates\components\banner_form.html:36
+#: .\templates\components\contact_form.html:35
 msgid "Ortodonti"
 msgstr "Orthodontics"
 
 #: .\templates\components\about.html:271
-#: .\templates\components\banner_form.html:28
-#: .\templates\components\contact_form.html:26
+#: .\templates\components\banner_form.html:39
+#: .\templates\components\contact_form.html:36
 msgid "3D Tomografi"
 msgstr "3D Tomography"
 
 #: .\templates\components\about.html:275
-#: .\templates\components\banner_form.html:27
-#: .\templates\components\contact_form.html:27
+#: .\templates\components\banner_form.html:38
+#: .\templates\components\contact_form.html:37
 msgid "Beyaz Dolgu"
 msgstr "White Fill"
 
 #: .\templates\components\about.html:279
-#: .\templates\components\banner_form.html:26
-#: .\templates\components\contact_form.html:28
+#: .\templates\components\banner_form.html:37
+#: .\templates\components\contact_form.html:38
 msgid "Kanal Tedavisi"
 msgstr "Root Canal Treatment"
 
 #: .\templates\components\about.html:283
-#: .\templates\components\contact_form.html:29
+#: .\templates\components\contact_form.html:39
 msgid "Çocuk Diş Hekimliği"
 msgstr "Pediatric Dentistry"
 
@@ -153,57 +172,57 @@ msgstr "FREE"
 msgid "Web’e özel Diş Analizi"
 msgstr "Web-specific Dental Analysis"
 
-#: .\templates\components\banner_form.html:5
-#: .\templates\components\contact_form.html:5
+#: .\templates\components\banner_form.html:16
+#: .\templates\components\contact_form.html:15
 msgid "Formu doldurun, fırsatı yakalayın!"
 msgstr "Fill in the form, grab the opportunity!"
 
-#: .\templates\components\banner_form.html:10
-#: .\templates\components\contact_form.html:10
+#: .\templates\components\banner_form.html:21
+#: .\templates\components\contact_form.html:20
 msgid "Adınız"
 msgstr "Your name"
 
-#: .\templates\components\banner_form.html:15
-#: .\templates\components\contact_form.html:15
+#: .\templates\components\banner_form.html:26
+#: .\templates\components\contact_form.html:25
 msgid "Soyadınız"
 msgstr "Your surname"
 
-#: .\templates\components\banner_form.html:21
-#: .\templates\components\contact_form.html:21
+#: .\templates\components\banner_form.html:32
+#: .\templates\components\contact_form.html:31
 msgid "Tedavi Tercihiniz"
 msgstr "Your Treatment Preference"
 
-#: .\templates\components\banner_form.html:22
+#: .\templates\components\banner_form.html:33
 msgid "Muayene"
 msgstr ""
 
-#: .\templates\components\banner_form.html:34
+#: .\templates\components\banner_form.html:45
 #: .\templates\components\contact.html:20
-#: .\templates\components\contact_form.html:35
+#: .\templates\components\contact_form.html:45
 msgid "E-posta"
 msgstr "E-mail"
 
-#: .\templates\components\banner_form.html:39
+#: .\templates\components\banner_form.html:50
 #: .\templates\components\contact.html:27
-#: .\templates\components\contact_form.html:40
+#: .\templates\components\contact_form.html:50
 msgid "Telefon"
 msgstr "Telephone"
 
-#: .\templates\components\banner_form.html:44
-#: .\templates\components\contact_form.html:45
+#: .\templates\components\banner_form.html:55
+#: .\templates\components\contact_form.html:55
 msgid "Bize Nerden Ulaştınız?"
 msgstr "How did you reach us?"
 
-#: .\templates\components\banner_form.html:55
-#: .\templates\components\contact_form.html:62
+#: .\templates\components\banner_form.html:67
+#: .\templates\components\contact_form.html:74
 msgid ""
 "Lütfen <a href=\"https://maxident.com.tr/aydinlatma-metni/\" target=\"_blank"
 "\">KVKK Aydınlatma Metni</a> kapsamında kişisel verilerinizi Maxident ile "
 "paylaştığınızı onaylayınız.</small>"
 msgstr ""
 
-#: .\templates\components\banner_form.html:61
-#: .\templates\components\contact_form.html:68
+#: .\templates\components\banner_form.html:73
+#: .\templates\components\contact_form.html:80
 msgid "Gönder"
 msgstr "Send"
 
@@ -222,8 +241,8 @@ msgstr ""
 msgid "Adresimiz"
 msgstr "Our Address"
 
-#: .\templates\components\contact_form.html:51
-#: .\templates\components\contact_form.html:53
+#: .\templates\components\contact_form.html:61
+#: .\templates\components\contact_form.html:63
 msgid "Mesajınız..."
 msgstr ""
 
@@ -311,7 +330,7 @@ msgid "Bize Yazın"
 msgstr ""
 
 #: .\templates\components\footer.html:21
-msgid "Detaylar için Bizi Arayın "
+msgid "Bizi Arayın "
 msgstr ""
 
 #: .\templates\components\header.html:15

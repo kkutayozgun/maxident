@@ -1,0 +1,22 @@
+<html>
+
+<body>
+    
+    <p>
+        <strong>Adı:</strong> {{ firstname }} <br>
+        <strong>Soyadı:</strong> {{ lastname }} <br>
+        <strong>Tedavi Tercihi:</strong> {{ treatmentchoice }} <br>
+        <strong>Email:</strong> {{ email }}<br>
+        <strong>Telefon:</strong> {{ phone }}<br>
+        <strong>Bize Nerden Ulaştınız:</strong> {{ contactmethod }}<br>
+        
+        {% if message %}
+        <strong>Mesaj:</strong> <br>
+        {{message|safe|linebreaks}}
+        {% endif %}
+            
+    </p>
+
+</body>
+
+</html>

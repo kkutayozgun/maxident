@@ -24,7 +24,21 @@ Created by : mutationthemes
 13.Mediaqueries
 
 
+
+
 /*Preloader*/
+
+.btn-link:hover{
+    color:  #5fc0ea;
+}
+
+.text-info {
+    color:  #5fc0ea !important;
+}
+
+a{
+    color: #5fc0ea;
+}
 
 .loader {
     background: #ffffff;

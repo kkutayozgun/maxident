@@ -1,23 +1,33 @@
 {% load i18n %}
 
-<form class="card border-0 shadow-soft p-6">
+<form class="card border-0 shadow-soft p-6" method="POST" action="{% url 'sendmessage' %}">
+   {% csrf_token %}
+   {% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-{{ message.tags }}">
+         {{ message|safe }}
+      </div>
+      {% endfor %}
+      <br>
+   {% endif %}
+                
     <div class="mb-4">
        <h3 class="h5">{% trans 'Formu doldurun, fırsatı yakalayın!' %}</h3>
     </div>
     <div class="row mx-gutters-2">
        <div class="col-md-6 mb-3">
           <div class="input-group">
-             <input type="text" class="form-control" name="firstName" placeholder="{% trans 'Adınız' %}" aria-label="First name">
+             <input type="text" class="form-control" name="firstName" placeholder="{% trans 'Adınız' %}" aria-label="First name" required>
           </div>
        </div>
        <div class="col-md-6 mb-3">
           <div class="input-group">
-             <input type="text" class="form-control" name="lasstName" placeholder="{% trans 'Soyadınız' %}">
+             <input type="text" class="form-control" name="lastName" placeholder="{% trans 'Soyadınız' %}" required>
           </div>
        </div>
        <div class="col-md-6 mb-3">
           <div class="input-group">
-             <select class="custom-select">
+             <select class="custom-select" name="treatmentchoice">
                  <option value="">{% trans 'Tedavi Tercihiniz' %}</option>
                  <option value="Diş Beyazlatma">{% trans 'Diş Beyazlatma' %}</option>
                  <option value="İmplant Tedavisi">{% trans 'İmplant Tedavisi' %}</option>
@@ -32,17 +42,17 @@
        </div>
        <div class="col-md-6 mb-3">
           <div class="input-group">
-             <input type="text" class="form-control" name="email" placeholder="{% trans 'E-posta' %}">
+             <input type="email" class="form-control" name="email" placeholder="{% trans 'E-posta' %}" required>
           </div>
        </div>
        <div class="col-md-6 mb-3">
           <div class="input-group">
-             <input type="text" class="form-control" name="phone" placeholder="{% trans 'Telefon' %}" >
+             <input type="text" class="form-control" name="phone" placeholder="{% trans 'Telefon' %}" required>
           </div>
        </div>
        <div class="col-md-6 mb-3">
           <div class="input-group">
-             <input type="text" class="form-control" name="subject" placeholder="{% trans 'Bize Nerden Ulaştınız?' %}">
+             <input type="text" class="form-control" name="contactmethod" placeholder="{% trans 'Bize Nerden Ulaştınız?' %}">
           </div>
        </div>
     </div>
@@ -50,14 +60,16 @@
     <div class="mb-5">
       <label class="sr-only">{% trans 'Mesajınız...' %}</label>
       <div class=" input-group">
-         <textarea class="form-control" rows="4" name="message" placeholder="{% trans 'Mesajınız...' %}" aria-label="{% trans 'Mesajınız...' %}" ></textarea>
+         <textarea class="form-control" rows="4" name="message" placeholder="{% trans 'Mesajınız...' %}" aria-label="{% trans 'Mesajınız...' %}" required></textarea>
       </div>
    </div>
+
+   <input type="hidden" value="#contact" name="redirectkey" />
     
     <div class=" mb-3">
        <div class="custom-control custom-checkbox d-flex align-items-center text-muted">
-          <input type="checkbox" class="custom-control-input" id="kvkkCheckbox" name="kvkkCheckbox">
-          <label class="custom-control-label" for="kvkkCheckbox">
+          <input type="checkbox" class="custom-control-input" id="kvkk2" name="kvkk" required>
+          <label class="custom-control-label" for="kvkk2">
           <small>
             {% blocktrans trimmed %} 
             Lütfen <a href="https://maxident.com.tr/aydinlatma-metni/" target="_blank">KVKK Aydınlatma Metni</a> kapsamında kişisel verilerinizi Maxident ile paylaştığınızı onaylayınız.</small>
