@@ -22,7 +22,7 @@ def home(request):
 
 def handle_contact_form(request):
     sender = settings.DEFAULT_FROM_EMAIL
-    receivers = [settings.CONTACT_FORM_RECEIVER]
+    receivers = settings.CONTACT_FORM_RECEIVER
     if request.method == 'POST':
         try:
             firstname = request.POST.get('firstName', default="")
