@@ -340,7 +340,7 @@ msgstr ""
 
 #: .\templates\components\faq.html:126
 msgid "Merak ettiğiniz diğer sorular için bize ulaşın."
-msgstr "Contact us for other questions you are curious about. Contact"
+msgstr "Contact us for other questions you are curious about."
 
 #: .\templates\components\faq.html:126 .\templates\components\header.html:21
 msgid "İletişim"
